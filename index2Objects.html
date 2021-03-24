@@ -21,29 +21,46 @@
 
 //  - Creare un array di oggetti di studenti. Ciclare su tutti gli
 //  studenti e stampare per ognuno nome e cognome
-  //   var students = {
-  //     'student1': 'Tiziana Baraldi',
-  //     'student2': 'Alessandra Piroli',
-  //     'student3': 'Giacomo Marassi',
-  //   }
-  // for(var key in students){
-  //   console.log(students[key]);
-  // }
+    var arrstudent = [
+      {
+      'name': 'Tiziana',
+      'surname': 'Baraldi',
+      'age': 29
+    },
+      {
+       'name': 'Giacomo',
+       'surname': 'Puzza',
+       'age': 23
+     },
+      {
+       'name': 'Michele',
+       'surname': 'Bau',
+       'age': 12
+      }
+    ];
+    var insieme = [];
+    //console.log(arrstudent);
+    for (var i = 0; i < arrstudent.length; i++) {
+      arrstudent[i]
+      //console.log(arrstudent);
+      insieme.push(arrstudent[i]);
+    }
+    console.log(insieme);
 
 //  - Dare la possibilità all'utente attraverso 3 prompt di
 //  aggiungere un nuovo oggetto studente inserendo
 //  nell'ordine: nome, cognome e età.
-  var user = {
-    'name': 'userStudent',
-    'surname': 'surname',
-    'age': 'age'
-  }
-                                          // equivale a:
-  user['name'] = prompt('nome:');         // var name = prompt('nome:');
-  user['surname'] = prompt('cognome:');    // var surname = prompt('cognome:');
-  user['age'] = prompt('età:')             // var age = prompt('età:');
-
-  console.log(user);
+  // var user = {
+  //   'name': 'userStudent',
+  //   'surname': 'surname',
+  //   'age': 'age'
+  // }
+  //                                         // equivale a:
+  // user['name'] = prompt('nome:');         // var name = prompt('nome:');
+  // user['surname'] = prompt('cognome:');    // var surname = prompt('cognome:');
+  // user['age'] = prompt('età:')             // var age = prompt('età:');
+  //
+  // console.log(user);
     </script>
   </body>
 </html>
