@@ -21,31 +21,31 @@
 
 //  - Creare un array di oggetti di studenti. Ciclare su tutti gli
 //  studenti e stampare per ognuno nome e cognome
-    var arrstudent = [
-      {
-      'name': 'Tiziana',
-      'surname': 'Baraldi',
-      'age': 29
-    },
-      {
-       'name': 'Giacomo',
-       'surname': 'Puzza',
-       'age': 23
-     },
-      {
-       'name': 'Michele',
-       'surname': 'Bau',
-       'age': 12
-      }
-    ];
-    var insieme = [];
-    //console.log(arrstudent);
-    for (var i = 0; i < arrstudent.length; i++) {
-      arrstudent[i]
-      //console.log(arrstudent);
-      insieme.push(arrstudent[i]);
-    }
-    console.log(insieme);
+    // var arrstudent = [
+    //   {
+    //   'name': 'Tiziana',
+    //   'surname': 'Baraldi',
+    //   'age': 29
+    // },
+    //   {
+    //    'name': 'Giacomo',
+    //    'surname': 'Puzza',
+    //    'age': 23
+    //  },
+    //   {
+    //    'name': 'Michele',
+    //    'surname': 'Bau',
+    //    'age': 12
+    //   }
+    // ];
+    // var insieme = [];
+    // //console.log(arrstudent);
+    // for (var i = 0; i < arrstudent.length; i++) {
+    //   arrstudent[i]
+    //   //console.log(arrstudent);
+    //   insieme.push(arrstudent[i]);
+    // }
+    // console.log(insieme);
 
 //  - Dare la possibilità all'utente attraverso 3 prompt di
 //  aggiungere un nuovo oggetto studente inserendo
@@ -61,6 +61,249 @@
   // user['age'] = prompt('età:')             // var age = prompt('età:');
   //
   // console.log(user);
+
+  // Creare un array di oggetti di studenti. Ciclare su tutti gli - - - - - - - -
+  // studenti e stampare per ognuno nome e cognome
+    // var students = [
+    //   {
+    //   'nome': 'Tiziana',
+    //   'cognome': 'Baraldi',
+    //   'età': 29
+    //   },
+    //   {
+    //     'nome': 'Nicola',
+    //     'cognome': 'Marassi',
+    //     'età': 15
+    //   },
+    //   {
+    //     'nome': 'Edoardo',
+    //     'cognome': 'Piroli',
+    //     'età': 32
+    //   },
+    //   {
+    //     'nome': 'Alessia',
+    //     'cognome': 'Golfrè',
+    //     'età': 50
+    //   }
+    // ]
+    //
+    // for (var i = 0; i < students.length; i++) {
+    //   var studenti = students[i];
+    //   var namE = studenti['nome'];
+    //   var cogn = studenti['cognome'];
+    //
+    //   console.log(namE, cogn);
+    // }
+// Dare la possibilità all'utente attraverso 3 prompt di - - - - - - - - - - -
+// aggiungere un nuovo oggetto studente inserendo
+// nell'ordine: nome, cognome e età.
+
+  // var students = [
+  //   {
+  //   'nome': 'Tiziana',
+  //   'cognome': 'Baraldi',
+  //   'età': 29
+  //   },
+  //   {
+  //     'nome': 'Nicola',
+  //     'cognome': 'Marassi',
+  //     'età': 15
+  //   },
+  //   {
+  //     'nome': 'Edoardo',
+  //     'cognome': 'Piroli',
+  //     'età': 32
+  //   },
+  //   {
+  //     'nome': 'Alessia',
+  //     'cognome': 'Golfrè',
+  //     'età': 50
+  //   }
+  // ];
+  //
+  // var newStud = {
+  //   'nome': 'nomStud',
+  //   'cognome': 'cogStud',
+  //   'età': 'etaStud'
+  // };
+  //
+  // newStud['nome'] =  prompt('dimmi nome:');
+  // newStud['cognome'] =  prompt('dimmi cognome:');
+  // newStud['età'] =  parseInt(prompt('dimmi età:'));
+  //
+  // //console.log(newStud);
+  //
+  // students.push(newStud);
+  //
+  // //VERSIONE SOSTITUZIONE DATO
+  // //se volessi sostituire invece che aggiungere posso fare così
+  // //students[0].nome = newStud['nome'];
+  // console.log(students);
+
+//Crea un array di 10 oggetti che rappresentano una
+// zucchina, indicando per ognuna varietà, peso e lunghezza.
+// Calcola quanto pesano tutte le zucchine.
+  // var zucchine = [
+  //   {
+  //   'varieta': 'zucc1',
+  //   'peso': 7,
+  //   'lunghezza': 29
+  //   },
+  //   {
+  //     'varieta': 'zucc2',
+  //     'peso': 4,
+  //     'lunghezza': 15
+  //   },
+  //   {
+  //     'varieta': 'zucc3',
+  //     'peso': 20,
+  //     'lunghezza': 32
+  //   },
+  //   {
+  //     'varieta': 'zucc4',
+  //     'peso': 22,
+  //     'lunghezza': 50
+  //   }
+  // ];
+  // //console.log(zucchine);
+  // function pesoZucchine(){
+  //   var sommZuc = 0;
+  //   for (var i = 0; i < zucchine.length; i++) {
+  //     var indexZuc = zucchine[i];
+  //     var varInd = parseInt(indexZuc['peso']);
+  //     sommZuc += varInd;
+  //     //console.log(varInd);
+  //   }
+  //   //console.log(sommZuc);
+  //   return sommZuc
+  // }
+  // pesoZucchine();
+  //
+  // console.log(pesoZucchine());
+
+//Crea 10 oggetti che rappresentano una zucchina. - - - - - - - - - - - - - - -
+//Dividi in due array separati le zucchine che misurano
+// meno o più di 15cm.
+// Infine stampa separatamente quanto pesano i due gruppi
+// di zucchine
+
+  // var zucchine =[
+  //   {
+  //     'tipo':'zucch1',
+  //     'mis': 10,
+  //   },
+  //   {
+  //     'tipo':'zucch2',
+  //     'mis': 2,
+  //   },
+  //   {
+  //     'tipo':'zucch3',
+  //     'mis': 54
+  //   },
+  //   {
+  //     'tipo':'zucch4',
+  //     'mis': 4
+  //   },
+  //   {
+  //     'tipo':'zucch5',
+  //     'mis': 34
+  //   },
+  //   {
+  //     'tipo':'zucch6',
+  //     'mis': 23
+  //   },
+  //   {
+  //     'tipo':'zucch7',
+  //     'mis': 45
+  //   },
+  //   {
+  //     'tipo':'zucch8',
+  //     'mis': 1
+  //   },
+  //   {
+  //     'tipo':'zucch9',
+  //     'mis': 9
+  //   },
+  //   {
+  //     'tipo':'zucch10',
+  //     'mis': 60
+  //   },
+  // ];
+  // //console.log(zucchine);
+  // var zuccLunghe = [];
+  // var zucchCorte = [];
+  //
+  // for (var i = 0; i < zucchine.length; i++) {
+  //   var zuccIndx = zucchine[i];
+  //   var pesoIndex = zuccIndx['mis'];
+  //   //console.log(pesoIndex);
+  //   if(pesoIndex>15){
+  //     zuccLunghe.push(pesoIndex)
+  //   }else{
+  //     zucchCorte.push(pesoIndex);
+  //   }
+  // }
+  // // console.log(zuccLunghe);
+  // // console.log(zucchCorte);
+  // function sommZuccLunga(){
+  //   var sommZucc = 0;
+  //   for (var i = 0; i < zuccLunghe.length; i++) {
+  //     var zucL = zuccLunghe[i];
+  //     //console.log(zucL);
+  //     sommZucc += zucL;
+  //   }
+  //   return sommZucc
+  // }
+  // sommZuccLunga();
+  // console.log('zucche Lunghe: ' + sommZuccLunga());
+  //
+  //
+  // function sommZuccCorta(){
+  //   var sommZuc = 0;
+  //   for (var i = 0; i < zucchCorte.length; i++) {
+  //     var zunC = zucchCorte[i];
+  //      sommZuc += zunC;
+  //   }
+  //   return sommZuc;
+  // }
+  // sommZuccCorta();
+  // console.log('zucche Corte: ' + sommZuccCorta());
+
+// Scrivi una funzione che accetti una stringa come - - - - - - - - - - - - - -
+// argomento e la ritorni girata (es. Ciao -> oaiC)
+
+  // var strg = 'Ciao';
+  // var opposto = strg.split('').reverse().join('');
+  // //console.log(opposto);
+  //
+  // function versioneFor(){
+  //   var string = 'Pippo';
+  //
+  //   var arrStrng = '';
+  //
+  //   for (var i = (string.length-1); i >= 0; i--) {
+  //     var strIndx = string[i];
+  //     arrStrng += strIndx;
+  //   }
+  //   return arrStrng
+  // }
+  // versioneFor();
+  // console.log(versioneFor());
+
+//Scrivi una funzione che fonda due array (aventi lo stesso - - - - - - - - - - - - -
+//numero di elementi) prendendo alternativamente gli elementi da uno e dall'altro
+//es. [a,b,c], [1,2,3] → [a,1,b,2,c,3].
+
+  // var num1 = ['1','2','3',];
+  // var nom1 = ['pio','guro','lf'];
+  // var mix = [];
+  //
+  // for (var i = 0; i < 3; i++) {
+  //   var a = num1[i];
+  //   var b = nom1[i];
+  //   mix.push(a,b)
+  // }
+  // console.log(mix);
     </script>
   </body>
 </html>
